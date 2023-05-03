@@ -1,0 +1,51 @@
+header{
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+    height: max-content;
+}
+
+.header_container{ 
+    height: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.cta{
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+.header_socials{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    justify-content: center;
+    margin-top: 0.8rem;
+    font-size: 1.5rem;
+}
+.header_container h5{
+    font-size: 1.2rem;
+    color: var(--color-light);
+    margin-top: 1rem;
+}
+/*media queries MD*/
+@media screen and (max-width:1024px) {
+    .header{
+        height: 68vh;
+    
+} 
+
+/*media queries SM*/
+@media screen and (max-width:600px) {
+    .header{
+       height: 100vh;
+    }
+    .header_socials{
+        display: flex;
+    }
+    
+}
+}
