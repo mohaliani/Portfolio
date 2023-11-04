@@ -18,11 +18,20 @@ const About = () => {
         <div className="about_cards">
           <article className="about_card">
           <GiAchievement className="about_icon" />
-          <h5>Experience</h5>
+          <h5>First year summer internship</h5>
           <small>
           Summer internship at CAT Assurance & Réassurance<br/>
           07/2022 – 08/2022<br/>
           Creating a web app for managing office furniture<br/>
+          </small>
+          </article>
+          <article className="about_card">
+          <GiAchievement className="about_icon" />
+          <h5>Second year summer internship</h5>
+          <small>
+          Summer internship at Tech-57<br/>
+          07/2023 – 09/2023<br/>
+          Creating a landing page for the company<br/>
           </small>
           </article>
         </div>
